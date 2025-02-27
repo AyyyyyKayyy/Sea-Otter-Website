@@ -1,0 +1,118 @@
+body {
+    background-color: #006994;
+    margin: 0; /* sets the default margin to 0 so that the hero video can fit end to end */
+}
+
+/* fonts */
+.agbalumo-regular {
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.arbuckle-bright {
+    font-family: "arbuckle-bright", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* layout stuff */
+
+.nav-text{
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.img-width{
+    width:30%;
+}
+
+.text-wrapper-rev {
+    display: flex;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 50px;    
+    display:flex;
+    flex-direction:row-reverse;
+    gap:30px;
+    align-items:center;   
+    text-align:left;
+    
+    
+    background-color: #1787B6;
+    border-style:none;
+    border-width: 5px;
+    border-radius: 15px;
+    align-content: space-around;
+    padding: 15px;
+
+}
+
+.text-wrapper {
+    display: flex;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 50px;    
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    align-items:center;   
+    text-align:right;
+    padding: 15px;
+    
+    background-color: #1787B6;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.made-by{
+    font-family: "subway-new-york-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    gap: 35px;
+    
+}
+
+h1{
+    font-family: "arbuckle-bright", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color:white;
+    margin-left: 45px;
+}
+
+video {
+    margin-bottom: 75px;
+}
+
+p {
+    font-family: "Agbalumo", serif;
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+footer { 
+    margin-left: 15px;
+}
