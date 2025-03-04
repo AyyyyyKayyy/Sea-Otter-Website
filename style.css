@@ -28,7 +28,7 @@ p {
     color:white;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 a { 
@@ -55,13 +55,10 @@ li{
     color:white;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-
+    font-size: 29px;
     display: flex;
-    max-width: 1750px;
-    margin-left: 25%;
-    margin-right: auto;
-    margin-bottom: 50px;    
+    margin-bottom: 5px;    
+    text-decoration: underline;
 }
 
 .nav-text{
@@ -77,31 +74,30 @@ li{
 
 .text-wrapper-rev {
     display: flex;
-    max-width: 1750px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;    
     flex-direction:row-reverse;
-    gap:30px;
+    gap:70px;
     align-items:center;   
-    text-align:left; 
+    text-align:right; 
     padding: 25px;
     background-color: #1787B6;
     border-style:none;
     border-radius: 15px;
-
 }
 
 .text-wrapper {
     display: flex;
-    max-width: 1750px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;    
     flex-direction:row;
-    gap:30px;
+    gap:70px;
     align-items:center;   
-    text-align:right;
+    text-align:left;
     padding: 25px;
     background-color: #1787B6;
     border-radius: 20px;
@@ -109,13 +105,13 @@ li{
 
 .text-center-wrapper{
     display: flex;
-    max-width: 1750px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;    
-    gap:30px;  
+    gap:70px;  
     text-align:center;
-    padding: 15px;
+    padding: 35px;
     background-color: #1787B6;
     border-radius: 20px;
     border-width: 5px;
@@ -123,7 +119,7 @@ li{
 
 .image-wrapper{
     display: flex;
-    max-width: 1750px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;    
@@ -157,7 +153,7 @@ li{
     display: flex;
     max-width: 1750px;
     margin: auto;
-    margin-bottom: 50px;    
+    margin-bottom: 20px;    
     gap:20px;  
     justify-content: center;
     align-items: center;
@@ -174,10 +170,47 @@ li{
     margin-right: auto;
     margin-bottom: 50px;    
     flex-direction:row;
-    gap:30px;
+    gap:130px;  
+    text-align:left;
+    padding: 25px;
+    background-color: #1787B6;
+    border-radius: 20px;
+}
+
+.vid-container{
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.help-wrapper {
+    display: flex;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;    
+    flex-direction:row;
+    gap:130px;
     align-items:center;   
     text-align:left;
     padding: 25px;
     background-color: #1787B6;
     border-radius: 20px;
+}
+
+.not-so-big-photo{
+    display: flex;
+    max-width: 1750px;
+    margin: auto;
+    margin-bottom: 20px;    
+    gap:20px;  
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #1787B6;
+    border-radius: 20px;
+    border-width: 5px;
+    width:50%
 }
