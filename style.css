@@ -1,83 +1,6 @@
 body {
     background-color: #006994;
-    margin: 0; /* sets the default margin to 0 so that the hero video can fit end to end */
-}
-
-/* fonts */
-.agbalumo-regular {
-    font-family: "Agbalumo", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.arbuckle-bright {
-    font-family: "arbuckle-bright", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-
-/* layout stuff */
-
-.nav-text{
-    font-family: "Agbalumo", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 35px;
-}
-
-.img-width{
-    width:30%;
-}
-
-.text-wrapper-rev {
-    display: flex;
-    max-width: 1750px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-bottom: 50px;    
-    display:flex;
-    flex-direction:row-reverse;
-    gap:30px;
-    align-items:center;   
-    text-align:left;
-    
-    
-    background-color: #1787B6;
-    border-style:none;
-    border-width: 5px;
-    border-radius: 15px;
-    align-content: space-around;
-    padding: 15px;
-
-}
-
-.text-wrapper {
-    display: flex;
-    max-width: 1750px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-bottom: 50px;    
-    display:flex;
-    flex-direction:row;
-    gap:30px;
-    align-items:center;   
-    text-align:right;
-    padding: 15px;
-    
-    background-color: #1787B6;
-    border-radius: 20px;
-    border-width: 5px;
-}
-
-.made-by{
-    font-family: "subway-new-york-std", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
+     margin: 0; /* sets the default margin to 0 so that the hero video can fit end to end */
 }
 
 nav {
@@ -115,4 +38,146 @@ a {
 
 footer { 
     margin-left: 15px;
+}
+
+h2{
+    font-family: "arbuckle-bright", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    color:white;
+    margin-left: 45px;
+    text-align: center;
+}
+
+li{
+    font-family: "Agbalumo", serif;
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    display: flex;
+    max-width: 1750px;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-bottom: 50px;    
+}
+
+.nav-text{
+    font-family: "Agbalumo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.img-width{
+    width:30%;
+}
+
+.text-wrapper-rev {
+    display: flex;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;    
+    flex-direction:row-reverse;
+    gap:30px;
+    align-items:center;   
+    text-align:left; 
+    padding: 25px;
+    background-color: #1787B6;
+    border-style:none;
+    border-radius: 15px;
+
+}
+
+.text-wrapper {
+    display: flex;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;    
+    flex-direction:row;
+    gap:30px;
+    align-items:center;   
+    text-align:right;
+    padding: 25px;
+    background-color: #1787B6;
+    border-radius: 20px;
+}
+
+.text-center-wrapper{
+    display: flex;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;    
+    gap:30px;  
+    text-align:center;
+    padding: 15px;
+    background-color: #1787B6;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.image-wrapper{
+    display: flex;
+    max-width: 1750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;    
+    gap:20px;  
+    padding: 15px;
+    background-color: #1787B6;
+    border-radius: 20px;
+    border-width: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.made-by{
+    font-family: "subway-new-york-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.big-text{
+    font-family: "arbuckle-bright", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140px;
+    color:white;
+    margin: 40px;
+    text-align: center;
+}
+
+.big-photo{
+    display: flex;
+    max-width: 1750px;
+    margin: auto;
+    margin-bottom: 50px;    
+    gap:20px;  
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #1787B6;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.list-wrapper {
+    display: flex;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;    
+    flex-direction:row;
+    gap:30px;
+    align-items:center;   
+    text-align:left;
+    padding: 25px;
+    background-color: #1787B6;
+    border-radius: 20px;
 }
