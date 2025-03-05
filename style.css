@@ -48,6 +48,7 @@ h2{
     color:white;
     margin-left: 45px;
     text-align: center;
+    margin:0px;
 }
 
 li{
@@ -109,12 +110,10 @@ li{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;    
-    gap:70px;  
     text-align:center;
-    padding: 35px;
+    padding: 25px;
     background-color: #1787B6;
     border-radius: 20px;
-    border-width: 5px;
 }
 
 .image-wrapper{
@@ -213,4 +212,18 @@ li{
     border-radius: 20px;
     border-width: 5px;
     width:50%
+}
+
+.button{
+    display: flex;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;     
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #1787B6;
+    text-decoration: underline;
 }
