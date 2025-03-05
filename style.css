@@ -73,6 +73,10 @@ li{
     width:30%;
 }
 
+.list-margin{
+    margin: 15px;
+}
+
 .text-wrapper-rev {
     display: flex;
     max-width: 1550px;
