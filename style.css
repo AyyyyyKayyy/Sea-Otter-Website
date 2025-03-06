@@ -147,7 +147,7 @@ li:hover{
 }
 
 a:hover{
-    color:#69d0fc
+    color:#63cbf8;
 }
 
 .big-text{
@@ -236,10 +236,11 @@ a:hover{
     text-align: center;
     padding: 15px;
     border-radius: 20px;
+    color:white;
     background-color: #1787B6;
     text-decoration: underline;
 }
 
 .button:hover{
-    color:#006994;
+    color:#63cbf8;
 }
